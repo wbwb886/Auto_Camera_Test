@@ -1,0 +1,5 @@
+
+
+self.device(resourceId="com.android.camera:id/mode_select_item", text="录像").click()
+
+adb shell settings put global stay_on_while_plugged_in 3
