@@ -3,7 +3,7 @@ import pytest
 import os
 import logging
 from utils.adb_utils import AdbUtils
-from config.device_config import DATA_PATH, DEVICE_ID, OUTPUT_PATH, REPORT_XLSX, REPORT_HTML,FAIL_DIR
+from config.device_config import DATA_PATH, DEVICE_ID, OUTPUT_PATH, REPORT_XLSX, REPORT_HTML, FAIL_DIR
 
 logger = logging.getLogger("conftest")
 
